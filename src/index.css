@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+}
+.search input{
+  outline: none !important;
+  border: none !important;
+}
+.search input:focus{
+  outline: none !important;
+  border: none !important;
+
+}  
+input {
+  --tw-ring-shadow: 0 0 #000 !important;
+}
+input {
+  @apply ring-offset-0 ring-0
+}
+input:focus {
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(255, 255, 255, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000
+}
